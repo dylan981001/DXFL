@@ -1,0 +1,3 @@
+python3 main.py --dataset=cifar100 --model=resnet50 --alg=moon --lr=0.01 --epochs=10 --comm_round=100 --n_parties=10 --partition=noniid --use_project_head=256 --reg=0.00001
+
+python3 main.py --dataset=cifar10 --model=simple-cnn --alg=moon --lr=0.01 --epochs=10 --comm_round=100 --n_parties=10 --partition=noniid --use_project_head=256 --reg=0.00001
